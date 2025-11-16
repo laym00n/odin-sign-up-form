@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="left-sidebar">
+            <div class="logo-header">
+                <img src="images/odin-logo.png">
+                <span>ODIN</span>
+            </div>
+            <p>Image Credit: <a href="https://unsplash.com/photos/calm-body-of-water-near-alp-mountains-during-nighttime-2KXEb_8G5vo">kazuend</a></p>
+        </div>
+
+        <div class="right-sidebar">
+
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.</p>
+            <p>You know you want to.</p>
+
+            <form action="#">
+                <fieldset>
+                    <legend>Let's do this</legend>
+                    <div class="form-rows">
+                        <div class="control">
+                            <label for="first_name">First name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="John">
+                        </div>
+                        <div class="control">
+                            <label for="last_name">Last name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Doe">
+                        </div>
+                        <div class="control">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="control">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 xxx-xxx-xxxx">
+                        </div>
+                        <div class="control">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="root@123" required>
+                        </div>
+                        <div class="control">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" placeholder="root@123" required>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+            <button type="submit">Create Account</button>
+
+            <div class="login-link">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
