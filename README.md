@@ -19,10 +19,6 @@ You can access it here: https://laym00n.github.io/odin-sign-up-form/
 
 * **Custom Form Layout:** Uses Flexbox with `flex-wrap` and `calc()` logic to create a responsive two-column input grid without using CSS Grid.
 
-* **Interactive Input States:**
-    * **Focus:** Inputs glow with a custom color (Odin Green) and a soft shadow when clicked.
-    * **Validation:** Inputs display a red border only when the user has typed invalid data (using the `:not(:placeholder-shown)` trick).
-
 * **Layered Visuals:** Implements a "sandwich" design effect using white backgrounds and drop shadows to make the form appear to float above the page.
 
 * **Custom Typography:**
